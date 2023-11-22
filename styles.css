@@ -84,7 +84,7 @@ h1 {
 }
 
 .header-img > img {
-    width: 100%;
+    width: 80%;
 }
 
 /* colors */
@@ -111,6 +111,10 @@ nav,
 .random-img {
     display: flex;
     justify-content: space-between;
+}
+
+.sec-img {
+    width: 100%;
 }
 
 /* QUOTE */
@@ -155,7 +159,7 @@ nav,
 .action-box {
     display: flex;
     width: 100%;
-    padding: 50px;
+    padding: 50px 100px;
     background-color: darkslateblue;
     color: white;
     border-radius: 10px;
@@ -176,7 +180,7 @@ nav,
 
 .button {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
